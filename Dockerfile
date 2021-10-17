@@ -9,9 +9,6 @@ COPY . .
 RUN pip3 install --no-cache-dir -r requirements.txt && \
     pip3 install --no-cache-dir -r requirements-dev.txt
 
-# Install the python-trustyai bindings
-RUN python3 setup.py install
-
 USER root
 
 ENV NB_USER jovyan
