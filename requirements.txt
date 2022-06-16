@@ -1,1 +1,1 @@
-trustyai==0.2.3
+trustyai==0.2.4
