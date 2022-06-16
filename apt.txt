@@ -1,3 +1,0 @@
-ca-certificates-java
-openjdk-17-jre-headless
-maven
