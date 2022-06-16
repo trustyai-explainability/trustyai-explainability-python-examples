@@ -1,2 +1,1 @@
---no-binary
-trustyai==0.2.4
+trustyai==0.2.4 --no-binary=trustyai
