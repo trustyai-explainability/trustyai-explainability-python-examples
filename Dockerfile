@@ -6,10 +6,6 @@ RUN apt-get update
 RUN apt-get install -y cmake openjdk-11-jdk-headless maven build-essential wget
 
 COPY . .
-RUN pip3 install --no-cache-dir -r requirements.txt && \
-    pip3 install --no-cache-dir -r requirements-dev.txt
-
-USER root
 
 ENV NB_USER jovyan
 ENV NB_UID 1000
@@ -24,6 +20,10 @@ COPY . $HOME
 RUN chown -R $NB_UID $HOME
 
 USER $NB_USER
+
+RUN pip3 install --no-cache-dir -r requirements.txt && \
+    pip3 install --no-cache-dir -r requirements-dev.txt
+    
 # Launch the notebook server
 WORKDIR $HOME/examples
 CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
