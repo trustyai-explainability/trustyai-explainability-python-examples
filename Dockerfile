@@ -14,7 +14,9 @@ RUN adduser --disabled-password \
     --uid $NB_UID \
     $NB_USER
 
-COPY . $HOME
+COPY ./examples $HOME/examples
+COPY *.txt $HOME
+
 RUN chown -R $NB_UID $HOME
 
 RUN pip3 install --no-cache-dir -r $HOME/requirements.txt && \
