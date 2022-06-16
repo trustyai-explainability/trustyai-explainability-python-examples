@@ -1,0 +1,4 @@
+ca-certificates-java
+openjdk-11-jre-headless
+maven
+wget
