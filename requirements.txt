@@ -1,1 +1,2 @@
+--no-binary
 trustyai==0.2.4
