@@ -15,3 +15,4 @@ The Jupyter notebooks examples available are:
 - [Counterfactual explanations](examples/Counterfactuals.ipynb)
 * [LIME explanations](examples/Lime.ipynb)
 * [SHAP explanations](examples/SHAP.ipynb)
+* [PDP explanations](examples/PDP.ipynb) 
