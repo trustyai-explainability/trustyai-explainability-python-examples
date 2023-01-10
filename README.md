@@ -9,10 +9,17 @@ You can run the example Jupyter notebooks using `mybinder.org`:
 
 - https://mybinder.org/v2/gh/trustyai-python/trustyai-explainability-python-examples/main?labpath=examples
 
+## Jupyter notebooks
 
-The Jupyter notebooks examples available are:
+Several example Jupyter notebooks are available.
+
+### Explainers
 
 - [Counterfactual explanations](examples/Counterfactuals.ipynb)
-* [LIME explanations](examples/Lime.ipynb)
-* [SHAP explanations](examples/SHAP.ipynb)
-* [PDP explanations](examples/PDP.ipynb) 
+- [LIME explanations](examples/Lime.ipynb)
+- [SHAP explanations](examples/SHAP.ipynb)
+- [PDP explanations](examples/PDP.ipynb) 
+
+### Fairness metrics
+
+- [Group fairness metrics](examples/GroupFairnessMetrics.ipynb)
