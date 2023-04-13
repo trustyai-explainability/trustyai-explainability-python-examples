@@ -1,2 +1,2 @@
-trustyai==0.2.9
+trustyai==0.2.10
 jupyterlab~=3.5.3
