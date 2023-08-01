@@ -17,7 +17,15 @@ Several example Jupyter notebooks are available.
 - [LIME explanations](examples/Lime.ipynb)
 - [SHAP explanations](examples/SHAP.ipynb)
 - [PDP explanations](examples/PDP.ipynb) 
+- Time-series explainers
+  - [TSLime](examples/TSLime.ipynb)[^1]
+  - [TSSaliency](examples/TSSaliency.ipynb)[^1]
+  - [Time-series Individual Conditional Expectation (TSICE)](examples/TSICE.ipynb)[^1]
 
 ### Fairness metrics
 
 - [Group fairness metrics](examples/GroupFairnessMetrics.ipynb)
+
+
+
+[^1]: These explainers require the extra dependencies, installed with `pip install trustyai[extras]`.
