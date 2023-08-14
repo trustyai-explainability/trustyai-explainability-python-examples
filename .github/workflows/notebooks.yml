@@ -1,0 +1,41 @@
+name: Execute Jupyter Notebooks
+
+on:
+  push:
+    paths:
+      - '**.ipynb'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9]
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install JRE
+      run: sudo apt-get update && sudo apt-get install -y default-jre
+
+    - name: Install Jupyter
+      run: pip install jupyter
+
+    - name: Install TrustyAI
+      run: pip install trustyai trustyai[extras]
+
+
+    - name: Install nbconvert
+      run: pip install nbconvert
+
+    - name: Execute notebooks
+      run: |
+        for notebook in $(find . -name '*.ipynb'); do
+          jupyter nbconvert --execute $notebook --to notebook --inplace
+        done
