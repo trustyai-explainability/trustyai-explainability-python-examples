@@ -6,3 +6,4 @@ matplotlib~=3.6.3
 tensorflow
 keras
 huggingface-hub
+trustyai[extras]
