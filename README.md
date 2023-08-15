@@ -21,6 +21,9 @@ Several example Jupyter notebooks are available.
   - [TSLime](examples/TSLime.ipynb)[^1]
   - [TSSaliency](examples/TSSaliency.ipynb)[^1]
   - [Time-series Individual Conditional Expectation (TSICE)](examples/TSICE.ipynb)[^1]
+  - Full examples
+    - [Energy load forecasting](examples/EnergyLoadForecasting.ipynb)[^1]
+    - [Engine fault detection](examples/EngineFaultDetection.ipynb)[^1]
 
 ### Fairness metrics
 
