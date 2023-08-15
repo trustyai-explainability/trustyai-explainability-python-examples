@@ -4,6 +4,10 @@ on:
   push:
     paths:
       - '**.ipynb'
+  pull_request:
+    paths:
+      - '**.ipynb'
+
 
 jobs:
   test:
