@@ -25,10 +25,12 @@ Several example Jupyter notebooks are available.
     - [Energy load forecasting](examples/EnergyLoadForecasting.ipynb)[^1]
     - [Engine fault detection](examples/EngineFaultDetection.ipynb)[^1]
 
-### Fairness metrics
+### Metrics
 
-- [Group fairness metrics](examples/GroupFairnessMetrics.ipynb)
-
+- Bias/fairness
+  - [Group fairness metrics](examples/GroupFairnessMetrics.ipynb)
+- Language
+  - [Language performance](examples/LanguageMetrics.ipynb)
 
 
 [^1]: These explainers require the extra dependencies, installed with `pip install trustyai[extras]`.
