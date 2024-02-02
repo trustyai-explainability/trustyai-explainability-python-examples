@@ -24,6 +24,9 @@ Several example Jupyter notebooks are available.
   - Full examples
     - [Energy load forecasting](examples/EnergyLoadForecasting.ipynb)[^1]
     - [Engine fault detection](examples/EngineFaultDetection.ipynb)[^1]
+- Detoxification
+    - [LLM detoxification using TMaRCo](examples/Detoxify.ipynb)[^2]
+    
 
 ### Metrics
 
@@ -34,3 +37,4 @@ Several example Jupyter notebooks are available.
 
 
 [^1]: These explainers require the extra dependencies, installed with `pip install trustyai[extras]`.
+[^2]: Detoxification requires the optional dependencies, installed with `pip install trustyai[detoxify]`.

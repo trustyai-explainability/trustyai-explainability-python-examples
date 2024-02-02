@@ -32,7 +32,7 @@ jobs:
       run: pip install jupyter
 
     - name: Install TrustyAI
-      run: pip install trustyai trustyai[extras]
+      run: pip install trustyai trustyai[extras] trustyai[detoxify]
 
 
     - name: Install nbconvert
