@@ -7,4 +7,5 @@ tensorflow
 keras
 huggingface-hub
 trustyai[extras]
+trustyai[detoxify]
 trustyai[api]
