@@ -1,3 +1,5 @@
-trustyai==0.5.0
-trustyai[extras]==0.5.0
+trustyai==0.6.0
+trustyai[extras]==0.6.0
+trustyai[detoxify]==0.6.0
+trustyai[api]==0.6.0
 jupyterlab~=3.5.3
